@@ -192,7 +192,7 @@ A systems-oriented project exploring protocol interoperability, stateful convers
 - HTTP gateway and streaming support
 - Automated multi-version CI
 
-[**ACCESS REPOSITORY →**](https://github.com/XuWenboooo/-OpenAI-)
+[**ACCESS REPOSITORY →**](https://github.com/XuWenboooo/protocol-converter)
 
 ---
 
