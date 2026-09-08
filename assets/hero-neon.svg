@@ -1,0 +1,55 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.45" stop-color="#08122E"/>
+      <stop offset="1" stop-color="#14082E"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="120" y1="0" x2="1080" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(610 145) rotate(90) scale(180 500)">
+      <stop stop-color="#2563EB" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#38BDF8" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#glow)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+
+  <g opacity="0.85">
+    <circle cx="90" cy="62" r="2" fill="#67E8F9"/>
+    <circle cx="170" cy="220" r="2" fill="#C084FC"/>
+    <circle cx="1040" cy="70" r="2" fill="#93C5FD"/>
+    <circle cx="1110" cy="225" r="2" fill="#67E8F9"/>
+    <circle cx="945" cy="244" r="1.5" fill="#C4B5FD"/>
+    <circle cx="312" cy="48" r="1.5" fill="#93C5FD"/>
+  </g>
+
+  <g stroke="url(#neon)" stroke-width="2" opacity="0.8" filter="url(#softGlow)">
+    <path d="M40 214 C95 170, 130 250, 185 206 C240 162, 280 242, 335 198 C390 154, 430 232, 485 190 C540 150, 580 226, 635 186 C690 146, 730 220, 785 183 C840 146, 880 215, 935 180 C990 145, 1030 208, 1160 172"/>
+  </g>
+
+  <g opacity="0.55" stroke="#60A5FA" fill="none">
+    <ellipse cx="1040" cy="100" rx="115" ry="36" transform="rotate(-13 1040 100)"/>
+    <ellipse cx="1040" cy="100" rx="72" ry="22" transform="rotate(18 1040 100)" stroke="#C084FC"/>
+    <circle cx="1040" cy="100" r="7" fill="#67E8F9" stroke="none"/>
+  </g>
+
+  <text x="74" y="92" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="3">RESEARCH NODE // XUWENBOOOO</text>
+  <text x="70" y="150" fill="white" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="700">Wenbo Xu</text>
+  <text x="74" y="184" fill="#BFDBFE" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">AI Security · Speech / TTS · LLM Systems · Agents / MCP</text>
+  <text x="74" y="244" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">BUILD → EVALUATE → AUDIT → UNDERSTAND</text>
+
+  <rect x="36" y="28" width="1128" height="244" rx="18" stroke="url(#neon)" stroke-opacity="0.35"/>
+</svg>
