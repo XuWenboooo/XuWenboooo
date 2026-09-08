@@ -1,80 +1,36 @@
 <svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#05070D"/>
-      <stop offset="0.55" stop-color="#071323"/>
-      <stop offset="1" stop-color="#130B22"/>
+      <stop stop-color="#05070D"/><stop offset="0.55" stop-color="#071323"/><stop offset="1" stop-color="#130B22"/>
     </linearGradient>
-    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="1" fill="#FFFFFF" opacity="0.035"/>
-    </pattern>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#22D3EE" stroke-opacity="0.07"/>
-    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#FFFFFF" opacity="0.035"/></pattern>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#22D3EE" stroke-opacity="0.07"/></pattern>
     <linearGradient id="pixelEdge" x1="36" y1="24" x2="1164" y2="296" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2EF2FF"/>
-      <stop offset="0.5" stop-color="#5B8CFF"/>
-      <stop offset="1" stop-color="#C86BFF"/>
+      <stop stop-color="#2EF2FF"><animate attributeName="stop-color" values="#2EF2FF;#60A5FA;#2EF2FF" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="0.5" stop-color="#5B8CFF"><animate attributeName="stop-color" values="#5B8CFF;#A855F7;#5B8CFF" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#C86BFF"><animate attributeName="stop-color" values="#C86BFF;#22D3EE;#C86BFF" dur="8s" repeatCount="indefinite"/></stop>
     </linearGradient>
   </defs>
-
-  <rect width="1200" height="320" fill="url(#bg)"/>
-  <rect width="1200" height="320" fill="url(#grid)"/>
-  <rect width="1200" height="320" fill="url(#scan)"/>
-
-  <!-- pixel frame -->
+  <rect width="1200" height="320" fill="url(#bg)"/><rect width="1200" height="320" fill="url(#grid)"/><rect width="1200" height="320" fill="url(#scan)"/>
+  <rect x="26" y="28" width="1148" height="2" fill="#67E8F9" opacity="0.06"><animate attributeName="y" values="28;292;28" dur="11s" repeatCount="indefinite"/></rect>
   <path d="M34 20H1166V28H1174V292H1166V300H34V292H26V28H34Z" fill="none" stroke="url(#pixelEdge)" stroke-width="2"/>
-  <path d="M42 34H80V38H42ZM1120 34H1158V38H1120ZM42 282H80V286H42ZM1120 282H1158V286H1120Z" fill="#66F4FF" opacity="0.9"/>
-
-  <!-- status bar -->
-  <rect x="58" y="48" width="13" height="13" fill="#5CFF9D"/>
-  <rect x="77" y="48" width="13" height="13" fill="#22D3EE" opacity="0.65"/>
-  <rect x="96" y="48" width="13" height="13" fill="#A855F7" opacity="0.65"/>
+  <path d="M42 34H80V38H42ZM1120 34H1158V38H1120ZM42 282H80V286H42ZM1120 282H1158V286H1120Z" fill="#66F4FF" opacity="0.9"><animate attributeName="opacity" values="0.45;1;0.45" dur="3s" repeatCount="indefinite"/></path>
+  <rect x="58" y="48" width="13" height="13" fill="#5CFF9D"><animate attributeName="opacity" values="1;0.28;1" dur="1.8s" repeatCount="indefinite"/></rect>
+  <rect x="77" y="48" width="13" height="13" fill="#22D3EE" opacity="0.65"><animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" begin="0.4s" repeatCount="indefinite"/></rect>
+  <rect x="96" y="48" width="13" height="13" fill="#A855F7" opacity="0.65"><animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></rect>
   <text x="126" y="60" fill="#8DF7FF" font-family="Consolas, Menlo, monospace" font-size="15" letter-spacing="2">SYSTEM ONLINE // RESEARCH NODE 01</text>
-
-  <!-- title -->
   <text x="58" y="132" fill="#F8FAFC" font-family="Consolas, Menlo, monospace" font-size="48" font-weight="700" letter-spacing="2">WENBO XU</text>
-  <rect x="58" y="146" width="390" height="6" fill="#22D3EE"/>
-  <rect x="454" y="146" width="68" height="6" fill="#60A5FA"/>
-  <rect x="528" y="146" width="34" height="6" fill="#C084FC"/>
-
+  <rect x="58" y="146" width="390" height="6" fill="#22D3EE"><animate attributeName="fill" values="#22D3EE;#60A5FA;#A855F7;#22D3EE" dur="7s" repeatCount="indefinite"/></rect>
+  <rect x="454" y="146" width="68" height="6" fill="#60A5FA"><animate attributeName="fill" values="#60A5FA;#A855F7;#22D3EE;#60A5FA" dur="7s" repeatCount="indefinite"/></rect>
+  <rect x="528" y="146" width="34" height="6" fill="#C084FC"><animate attributeName="fill" values="#C084FC;#22D3EE;#60A5FA;#C084FC" dur="7s" repeatCount="indefinite"/></rect>
   <text x="58" y="184" fill="#C8D9FF" font-family="Consolas, Menlo, monospace" font-size="17">AI SECURITY // SPEECH &amp; TTS // LLM SYSTEMS // AGENTS &amp; MCP</text>
   <text x="58" y="218" fill="#93A4B8" font-family="Consolas, Menlo, monospace" font-size="14">BUILD &gt; EVALUATE &gt; AUDIT &gt; UNDERSTAND</text>
-
-  <!-- right pixel data panel -->
   <rect x="820" y="58" width="300" height="180" fill="#07111F" stroke="#214562" stroke-width="2"/>
-  <rect x="834" y="72" width="272" height="24" fill="#0D2131"/>
-  <text x="846" y="89" fill="#5CF2FF" font-family="Consolas, Menlo, monospace" font-size="13">// SIGNAL MONITOR</text>
-
-  <g fill="#22D3EE">
-    <rect x="846" y="126" width="8" height="18"/>
-    <rect x="862" y="116" width="8" height="38"/>
-    <rect x="878" y="102" width="8" height="66"/>
-    <rect x="894" y="121" width="8" height="28"/>
-    <rect x="910" y="93" width="8" height="84"/>
-    <rect x="926" y="112" width="8" height="46"/>
-    <rect x="942" y="126" width="8" height="18"/>
-    <rect x="958" y="104" width="8" height="62"/>
-    <rect x="974" y="119" width="8" height="32"/>
-    <rect x="990" y="88" width="8" height="94"/>
-    <rect x="1006" y="111" width="8" height="48"/>
-    <rect x="1022" y="124" width="8" height="22"/>
-    <rect x="1038" y="101" width="8" height="68"/>
-    <rect x="1054" y="116" width="8" height="38"/>
-    <rect x="1070" y="128" width="8" height="14"/>
+  <rect x="834" y="72" width="272" height="24" fill="#0D2131"/><text x="846" y="89" fill="#5CF2FF" font-family="Consolas, Menlo, monospace" font-size="13">// SIGNAL MONITOR</text>
+  <g fill="#22D3EE"><animate attributeName="opacity" values="0.55;1;0.72;1;0.55" dur="3.8s" repeatCount="indefinite"/>
+    <rect x="846" y="126" width="8" height="18"/><rect x="862" y="116" width="8" height="38"/><rect x="878" y="102" width="8" height="66"/><rect x="894" y="121" width="8" height="28"/><rect x="910" y="93" width="8" height="84"/><rect x="926" y="112" width="8" height="46"/><rect x="942" y="126" width="8" height="18"/><rect x="958" y="104" width="8" height="62"/><rect x="974" y="119" width="8" height="32"/><rect x="990" y="88" width="8" height="94"/><rect x="1006" y="111" width="8" height="48"/><rect x="1022" y="124" width="8" height="22"/><rect x="1038" y="101" width="8" height="68"/><rect x="1054" y="116" width="8" height="38"/><rect x="1070" y="128" width="8" height="14"/>
   </g>
-  <g fill="#A855F7" opacity="0.75">
-    <rect x="854" y="188" width="32" height="8"/>
-    <rect x="892" y="188" width="56" height="8"/>
-    <rect x="954" y="188" width="84" height="8"/>
-    <rect x="1044" y="188" width="42" height="8"/>
-  </g>
+  <g fill="#A855F7" opacity="0.75"><animate attributeName="opacity" values="0.35;0.95;0.35" dur="4.2s" repeatCount="indefinite"/><rect x="854" y="188" width="32" height="8"/><rect x="892" y="188" width="56" height="8"/><rect x="954" y="188" width="84" height="8"/><rect x="1044" y="188" width="42" height="8"/></g>
   <text x="846" y="220" fill="#7EFCC0" font-family="Consolas, Menlo, monospace" font-size="12">STATUS: EXPERIMENT_RUNNING</text>
-
-  <!-- pixel stars -->
-  <g fill="#D8F8FF" opacity="0.8">
-    <rect x="718" y="54" width="4" height="4"/><rect x="742" y="84" width="3" height="3"/>
-    <rect x="676" y="242" width="4" height="4"/><rect x="748" y="262" width="3" height="3"/>
-    <rect x="612" y="72" width="3" height="3"/><rect x="785" y="218" width="4" height="4"/>
-  </g>
+  <g fill="#D8F8FF" opacity="0.8"><animate attributeName="opacity" values="0.35;0.9;0.35" dur="5s" repeatCount="indefinite"/><rect x="718" y="54" width="4" height="4"/><rect x="742" y="84" width="3" height="3"/><rect x="676" y="242" width="4" height="4"/><rect x="748" y="262" width="3" height="3"/><rect x="612" y="72" width="3" height="3"/><rect x="785" y="218" width="4" height="4"/></g>
 </svg>
