@@ -1,12 +1,10 @@
 <div align="center">
 
-# Hi 👋, I'm Wenbo Xu
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0f172a,35:1d4ed8,70:7c3aed,100:0ea5e9&text=Wenbo%20Xu&fontColor=ffffff&fontSize=52&fontAlignY=35&desc=AI%20Security%20%C2%B7%20Speech%20/%20TTS%20%C2%B7%20LLM%20Systems%20%C2%B7%20Agents%20/%20MCP&descAlignY=58" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=760&lines=Exploring+AI+Security+%26+Speech+Intelligence;Building+Reliable+LLM+Systems;Researching+TTS+Evaluation+%26+Forensics;Turning+Experiments+into+Reproducible+Evidence)](https://git.io/typing-svg)
 
-**AI Security · Speech / TTS · LLM Systems · Agents / MCP**
-
-Research-oriented student interested in building reliable AI systems and understanding how modern generative models fail, generalize, and interact with real-world environments.
+**Research-oriented student building reliable AI systems and studying how modern generative models fail, generalize, and interact with real-world environments.**
 
 ![Profile Views](https://komarev.com/ghpvc/?username=XuWenboooo&label=Profile%20Views&color=555555&style=flat)
 
@@ -14,9 +12,9 @@ Research-oriented student interested in building reliable AI systems and underst
 
 ---
 
-# 🎧 Flagship Research — AudiobookBench-CN
-
 <div align="center">
+
+# 🎧 Flagship Research — AudiobookBench-CN
 
 ## **A Research-Centered Benchmark for Long-Form Chinese TTS Evaluation**
 
@@ -28,31 +26,84 @@ Research-oriented student interested in building reliable AI systems and underst
 
 </div>
 
-> **AudiobookBench-CN is my current flagship research project.**  
-> It focuses on **long-form Chinese text-to-speech evaluation** under controlled, reproducible, and audit-friendly experimental protocols.
+> ### **AudiobookBench-CN is my current flagship research project.**
+> It focuses on **long-form Chinese text-to-speech evaluation** under **controlled, reproducible, and audit-friendly** experimental protocols.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🔍 Core Question
+
+How should long-form TTS systems be evaluated when **demo quality alone is not enough**?
+
+</td>
+<td width="33%" valign="top">
+
+### 🧱 Core Idea
+
+Treat evaluation as a **research system**: benchmark design, execution discipline, validation, and scientific audit all matter.
+
+</td>
+<td width="33%" valign="top">
+
+### 🎯 Long-Term Value
+
+A foundation for future work in **TTS evaluation**, **speech reliability**, **forensics**, and **AI security**.
+
+</td>
+</tr>
+</table>
+
+### 🌟 Research Spotlight
+
+| Dimension | AudiobookBench-CN focus |
+|---|---|
+| **Task** | Long-form Chinese audiobook-style TTS |
+| **Research Goal** | Reliable and reproducible evaluation |
+| **Experimental Style** | Controlled protocols instead of ad-hoc demos |
+| **Evidence** | Structured outputs, provenance and validation |
+| **Failure Handling** | Failures are accounted for rather than hidden |
+| **Long-term Value** | Foundation for TTS evaluation, reliability and security research |
+
+### 🧠 Why this project matters
+
+- **Benchmark-oriented**, not just demo-oriented
+- **Evaluation-first**, not presentation-first
+- **Failure-aware**, not failure-hiding
+- **Research-auditable**, not loosely documented
+- **Useful as a bridge** from speech generation to reliability and security research
+
+### ⚙️ Research pipeline
+
+```mermaid
+flowchart TD
+    A[Research Question] --> B[Benchmark & Case Design]
+    B --> C[Generation Protocol]
+    C --> D[Evaluation Pipeline]
+    D --> E[Validation & Lineage Checks]
+    E --> F[Failure Accounting]
+    F --> G[Scientific Audit]
+    G --> H[Reproducible Evidence]
+```
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🔍 Research Question
+### 🧪 Research principles
 
-How should long-form TTS systems be evaluated when simple demo quality is not enough?
-
-The project emphasizes:
-
-- structured benchmark design
-- controlled evaluation protocols
-- explicit provenance and lineage
-- transparent failure accounting
-- reproducible scientific evidence
+- **Reproducibility first** — settings, assets, cases, and outputs should be traceable
+- **Failures are evidence** — infrastructure and scientific failures should be recorded
+- **Evaluation before presentation** — a nice demo is not a substitute for a controlled experiment
+- **Reviewability matters** — results should be understandable and independently inspectable
 
 </td>
 <td width="50%" valign="top">
 
-### 🎯 Research Direction
+### 🧭 Connected directions
 
-AudiobookBench-CN connects several areas I want to pursue long term:
+AudiobookBench-CN sits at the intersection of:
 
 - **Speech / TTS systems**
 - **AI reliability**
@@ -65,49 +116,11 @@ AudiobookBench-CN connects several areas I want to pursue long term:
 </tr>
 </table>
 
-### 🧠 What makes this project different
-
-| Dimension | AudiobookBench-CN focus |
-|---|---|
-| **Task** | Long-form Chinese audiobook-style TTS |
-| **Research Goal** | Reliable and reproducible evaluation |
-| **Experimental Style** | Controlled protocols instead of ad-hoc demos |
-| **Evidence** | Structured outputs, provenance and validation |
-| **Failure Handling** | Failures are accounted for rather than hidden |
-| **Long-term Value** | Foundation for TTS evaluation, reliability and security research |
-
-### ⚙️ Research pipeline
-
-```text
-Research Question
-       ↓
-Benchmark & Case Design
-       ↓
-Generation Protocol
-       ↓
-Evaluation Pipeline
-       ↓
-Validation & Lineage Checks
-       ↓
-Failure Accounting
-       ↓
-Scientific Audit
-       ↓
-Reproducible Evidence
-```
-
-### 🧪 Research principles
-
-**Reproducibility first.** Experimental settings, assets, cases, and outputs should be traceable.  
-**Failures are evidence.** Infrastructure and scientific failures should be recorded rather than silently discarded.  
-**Evaluation before presentation.** A convincing demo is not a substitute for a controlled experiment.  
-**Reviewability matters.** Results should be understandable and independently inspectable.
-
 <div align="center">
 
 `Speech` · `TTS` · `Long-form Generation` · `Benchmarking` · `Evaluation` · `Reproducibility` · `Auditability` · `AI Reliability` · `Forensics`
 
-**🔬 Status: Active Research**
+### 🔬 Status: Active Research
 
 </div>
 
@@ -323,5 +336,7 @@ If you are interested in my research or projects, feel free to contact me throug
 <div align="center">
 
 ### Research · Build · Evaluate · Understand
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:0f172a,35:1d4ed8,70:7c3aed,100:0ea5e9" />
 
 </div>
