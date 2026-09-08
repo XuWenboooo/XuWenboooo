@@ -3,43 +3,21 @@
     <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#FFFFFF" opacity="0.028"/></pattern>
     <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><rect x="1" y="1" width="2" height="2" fill="#67E8F9" opacity="0.08"/><rect x="7" y="7" width="2" height="2" fill="#C084FC" opacity="0.06"/></pattern>
   </defs>
-  <rect width="1200" height="1010" fill="#05070D"/>
-  <rect width="1200" height="1010" fill="url(#scan)"/>
-  <rect width="1200" height="1010" fill="url(#dots)"/>
-
-  <!-- stepped pixel gradient rail -->
+  <rect width="1200" height="1010" fill="#05070D"/><rect width="1200" height="1010" fill="url(#scan)"/><rect width="1200" height="1010" fill="url(#dots)"/>
+  <rect x="28" y="42" width="1144" height="2" fill="#67E8F9" opacity="0.045"><animate attributeName="y" values="42;978;42" dur="18s" repeatCount="indefinite"/></rect>
   <g>
-    <rect x="28" y="24" width="160" height="8" fill="#22D3EE"/><rect x="188" y="24" width="160" height="8" fill="#38BDF8"/>
-    <rect x="348" y="24" width="160" height="8" fill="#3B82F6"/><rect x="508" y="24" width="160" height="8" fill="#6366F1"/>
-    <rect x="668" y="24" width="160" height="8" fill="#8B5CF6"/><rect x="828" y="24" width="160" height="8" fill="#A855F7"/>
-    <rect x="988" y="24" width="184" height="8" fill="#C084FC"/>
+    <rect x="28" y="24" width="160" height="8" fill="#22D3EE"><animate attributeName="opacity" values="0.3;1;0.3" dur="5.2s" begin="0s" repeatCount="indefinite"/></rect><rect x="188" y="24" width="160" height="8" fill="#38BDF8"><animate attributeName="opacity" values="0.3;1;0.3" dur="5.2s" begin="0.35s" repeatCount="indefinite"/></rect><rect x="348" y="24" width="160" height="8" fill="#3B82F6"><animate attributeName="opacity" values="0.3;1;0.3" dur="5.2s" begin="0.7s" repeatCount="indefinite"/></rect><rect x="508" y="24" width="160" height="8" fill="#6366F1"><animate attributeName="opacity" values="0.3;1;0.3" dur="5.2s" begin="1.05s" repeatCount="indefinite"/></rect><rect x="668" y="24" width="160" height="8" fill="#8B5CF6"><animate attributeName="opacity" values="0.3;1;0.3" dur="5.2s" begin="1.4s" repeatCount="indefinite"/></rect><rect x="828" y="24" width="160" height="8" fill="#A855F7"><animate attributeName="opacity" values="0.3;1;0.3" dur="5.2s" begin="1.75s" repeatCount="indefinite"/></rect><rect x="988" y="24" width="184" height="8" fill="#C084FC"><animate attributeName="opacity" values="0.3;1;0.3" dur="5.2s" begin="2.1s" repeatCount="indefinite"/></rect>
   </g>
   <path d="M28 42H1172V980H28Z" fill="none" stroke="#36526F" stroke-width="2"/>
-
-  <rect x="52" y="58" width="12" height="12" fill="#5CFF9D"/>
+  <rect x="52" y="58" width="12" height="12" fill="#5CFF9D"><animate attributeName="opacity" values="1;0.22;1" dur="1.7s" repeatCount="indefinite"/></rect>
   <text x="76" y="69" fill="#8DF7FF" font-family="Consolas, Menlo, monospace" font-size="14" letter-spacing="2">FLAGSHIP_RESEARCH // AUDIOBOOKBENCH-CN // ACTIVE</text>
   <text x="52" y="112" fill="#F8FAFC" font-family="Consolas, Menlo, monospace" font-size="22" font-weight="700">LONG-FORM CHINESE TTS EVALUATION AS A RESEARCH SYSTEM</text>
   <text x="52" y="142" fill="#AFC7E8" font-family="Consolas, Menlo, monospace" font-size="15">Controlled, reproducible and audit-friendly experimental protocols.</text>
-
-  <!-- three cards -->
   <g font-family="Consolas, Menlo, monospace">
-    <rect x="52" y="178" width="346" height="150" fill="#07131C" stroke="#22D3EE" stroke-width="2"/>
-    <rect x="52" y="178" width="346" height="7" fill="#22D3EE"/>
-    <text x="70" y="210" fill="#67E8F9" font-size="14" font-weight="700">01 // QUESTION</text>
-    <text x="70" y="242" fill="#E2E8F0" font-size="14"><tspan x="70" dy="0">How should long-form TTS systems</tspan><tspan x="70" dy="22">be evaluated when demo quality</tspan><tspan x="70" dy="22">alone is not enough?</tspan></text>
-
-    <rect x="427" y="178" width="346" height="150" fill="#081224" stroke="#4F7DFF" stroke-width="2"/>
-    <rect x="427" y="178" width="346" height="7" fill="#4F7DFF"/>
-    <text x="445" y="210" fill="#93C5FD" font-size="14" font-weight="700">02 // SYSTEM</text>
-    <text x="445" y="242" fill="#E2E8F0" font-size="14"><tspan x="445" dy="0">Evaluation = benchmark design +</tspan><tspan x="445" dy="22">execution discipline + provenance +</tspan><tspan x="445" dy="22">validation + scientific audit.</tspan></text>
-
-    <rect x="802" y="178" width="346" height="150" fill="#100D22" stroke="#B15CFF" stroke-width="2"/>
-    <rect x="802" y="178" width="346" height="7" fill="#B15CFF"/>
-    <text x="820" y="210" fill="#D8B4FE" font-size="14" font-weight="700">03 // DIRECTION</text>
-    <text x="820" y="242" fill="#E2E8F0" font-size="14"><tspan x="820" dy="0">Speech reliability -> synthetic-speech</tspan><tspan x="820" dy="22">forensics -> generative-audio</tspan><tspan x="820" dy="22">AI security.</tspan></text>
+    <rect x="52" y="178" width="346" height="150" fill="#07131C" stroke="#22D3EE" stroke-width="2"><animate attributeName="stroke" values="#22D3EE;#38BDF8;#22D3EE" dur="5s" repeatCount="indefinite"/></rect><rect x="52" y="178" width="346" height="7" fill="#22D3EE"><animate attributeName="fill" values="#22D3EE;#38BDF8;#22D3EE" dur="5s" repeatCount="indefinite"/></rect><text x="70" y="210" fill="#67E8F9" font-size="14" font-weight="700">01 // QUESTION</text><text x="70" y="242" fill="#E2E8F0" font-size="14"><tspan x="70" dy="0">How should long-form TTS systems</tspan><tspan x="70" dy="22">be evaluated when demo quality</tspan><tspan x="70" dy="22">alone is not enough?</tspan></text>
+    <rect x="427" y="178" width="346" height="150" fill="#081224" stroke="#4F7DFF" stroke-width="2"><animate attributeName="stroke" values="#4F7DFF;#818CF8;#4F7DFF" dur="5s" begin="0.7s" repeatCount="indefinite"/></rect><rect x="427" y="178" width="346" height="7" fill="#4F7DFF"><animate attributeName="fill" values="#4F7DFF;#818CF8;#4F7DFF" dur="5s" begin="0.7s" repeatCount="indefinite"/></rect><text x="445" y="210" fill="#93C5FD" font-size="14" font-weight="700">02 // SYSTEM</text><text x="445" y="242" fill="#E2E8F0" font-size="14"><tspan x="445" dy="0">Evaluation = benchmark design +</tspan><tspan x="445" dy="22">execution discipline + provenance +</tspan><tspan x="445" dy="22">validation + scientific audit.</tspan></text>
+    <rect x="802" y="178" width="346" height="150" fill="#100D22" stroke="#B15CFF" stroke-width="2"><animate attributeName="stroke" values="#B15CFF;#C084FC;#22D3EE;#B15CFF" dur="6s" begin="1.4s" repeatCount="indefinite"/></rect><rect x="802" y="178" width="346" height="7" fill="#B15CFF"><animate attributeName="fill" values="#B15CFF;#C084FC;#22D3EE;#B15CFF" dur="6s" begin="1.4s" repeatCount="indefinite"/></rect><text x="820" y="210" fill="#D8B4FE" font-size="14" font-weight="700">03 // DIRECTION</text><text x="820" y="242" fill="#E2E8F0" font-size="14"><tspan x="820" dy="0">Speech reliability -&gt; synthetic-speech</tspan><tspan x="820" dy="22">forensics -&gt; generative-audio</tspan><tspan x="820" dy="22">AI security.</tspan></text>
   </g>
-
-  <!-- research matrix -->
   <text x="52" y="372" fill="#8DF7FF" font-family="Consolas, Menlo, monospace" font-size="16" font-weight="700">RESEARCH_MATRIX // 06 SIGNALS</text>
   <rect x="52" y="392" width="1096" height="252" fill="#07101A" stroke="#35516D" stroke-width="2"/>
   <g font-family="Consolas, Menlo, monospace" font-size="14">
@@ -48,41 +26,16 @@
     <rect x="52" y="476" width="250" height="42" fill="#0B1731"/><text x="70" y="502" fill="#A5B4FC" font-weight="700">EXPERIMENTAL STYLE</text><text x="322" y="502" fill="#E2E8F0">Controlled protocols rather than ad-hoc demos</text>
     <rect x="52" y="518" width="250" height="42" fill="#10152E"/><text x="70" y="544" fill="#C4B5FD" font-weight="700">EVIDENCE MODEL</text><text x="322" y="544" fill="#E2E8F0">Structured outputs, provenance, validation and lineage</text>
     <rect x="52" y="560" width="250" height="42" fill="#15142C"/><text x="70" y="586" fill="#D8B4FE" font-weight="700">FAILURE MODEL</text><text x="322" y="586" fill="#E2E8F0">Failures are accounted for rather than silently discarded</text>
-    <rect x="52" y="602" width="250" height="42" fill="#1A112A"/><text x="70" y="628" fill="#E9D5FF" font-weight="700">TRAJECTORY</text><text x="322" y="628" fill="#E2E8F0">TTS evaluation -> reliability -> forensics -> AI security</text>
+    <rect x="52" y="602" width="250" height="42" fill="#1A112A"/><text x="70" y="628" fill="#E9D5FF" font-weight="700">TRAJECTORY</text><text x="322" y="628" fill="#E2E8F0">TTS evaluation -&gt; reliability -&gt; forensics -&gt; AI security</text>
   </g>
-
-  <!-- flow -->
   <text x="52" y="690" fill="#8DF7FF" font-family="Consolas, Menlo, monospace" font-size="16" font-weight="700">PIPELINE // EVIDENCE_FLOW</text>
   <g font-family="Consolas, Menlo, monospace" font-size="12" text-anchor="middle">
-    <rect x="52" y="714" width="126" height="54" fill="#081923" stroke="#22D3EE"/><text x="115" y="746" fill="#CFFAFE">QUESTION</text>
-    <rect x="191" y="714" width="126" height="54" fill="#081726" stroke="#38BDF8"/><text x="254" y="746" fill="#DBEAFE">BENCHMARK</text>
-    <rect x="330" y="714" width="126" height="54" fill="#091527" stroke="#3B82F6"/><text x="393" y="746" fill="#DBEAFE">GENERATION</text>
-    <rect x="469" y="714" width="126" height="54" fill="#0B1329" stroke="#6366F1"/><text x="532" y="746" fill="#E0E7FF">EVALUATION</text>
-    <rect x="608" y="714" width="126" height="54" fill="#10122B" stroke="#8B5CF6"/><text x="671" y="746" fill="#EDE9FE">VALIDATION</text>
-    <rect x="747" y="714" width="126" height="54" fill="#15112C" stroke="#A855F7"/><text x="810" y="746" fill="#F3E8FF">FAILURES</text>
-    <rect x="886" y="714" width="126" height="54" fill="#1B102D" stroke="#B15CFF"/><text x="949" y="746" fill="#FAE8FF">AUDIT</text>
-    <rect x="1025" y="714" width="123" height="54" fill="#20102E" stroke="#C084FC"/><text x="1086" y="739" fill="#FAE8FF"><tspan x="1086" dy="0">REPRODUCIBLE</tspan><tspan x="1086" dy="16">EVIDENCE</tspan></text>
-    <g fill="#6B8CB2"><rect x="180" y="737" width="9" height="6"/><rect x="319" y="737" width="9" height="6"/><rect x="458" y="737" width="9" height="6"/><rect x="597" y="737" width="9" height="6"/><rect x="736" y="737" width="9" height="6"/><rect x="875" y="737" width="9" height="6"/><rect x="1014" y="737" width="9" height="6"/></g>
+    <rect x="52" y="714" width="126" height="54" fill="#081923" stroke="#22D3EE"/><text x="115" y="746" fill="#CFFAFE">QUESTION</text><rect x="191" y="714" width="126" height="54" fill="#081726" stroke="#38BDF8"/><text x="254" y="746" fill="#DBEAFE">BENCHMARK</text><rect x="330" y="714" width="126" height="54" fill="#091527" stroke="#3B82F6"/><text x="393" y="746" fill="#DBEAFE">GENERATION</text><rect x="469" y="714" width="126" height="54" fill="#0B1329" stroke="#6366F1"/><text x="532" y="746" fill="#E0E7FF">EVALUATION</text><rect x="608" y="714" width="126" height="54" fill="#10122B" stroke="#8B5CF6"/><text x="671" y="746" fill="#EDE9FE">VALIDATION</text><rect x="747" y="714" width="126" height="54" fill="#15112C" stroke="#A855F7"/><text x="810" y="746" fill="#F3E8FF">FAILURES</text><rect x="886" y="714" width="126" height="54" fill="#1B102D" stroke="#B15CFF"/><text x="949" y="746" fill="#FAE8FF">AUDIT</text><rect x="1025" y="714" width="123" height="54" fill="#20102E" stroke="#C084FC"/><text x="1086" y="739" fill="#FAE8FF"><tspan x="1086" dy="0">REPRODUCIBLE</tspan><tspan x="1086" dy="16">EVIDENCE</tspan></text>
+    <g fill="#6B8CB2"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.8s" repeatCount="indefinite"/><rect x="180" y="737" width="9" height="6"/><rect x="319" y="737" width="9" height="6"/><rect x="458" y="737" width="9" height="6"/><rect x="597" y="737" width="9" height="6"/><rect x="736" y="737" width="9" height="6"/><rect x="875" y="737" width="9" height="6"/><rect x="1014" y="737" width="9" height="6"/></g>
   </g>
-
-  <!-- protocol + domains -->
-  <rect x="52" y="808" width="534" height="136" fill="#07131C" stroke="#22D3EE" stroke-width="2"/>
-  <text x="70" y="838" fill="#67E8F9" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="700">RESEARCH_PROTOCOL</text>
-  <g fill="#D8E4F2" font-family="Consolas, Menlo, monospace" font-size="12">
-    <text x="70" y="866">[+] Reproducibility first: assets, cases, outputs traceable</text>
-    <text x="70" y="888">[+] Failures are evidence: infrastructure + science recorded</text>
-    <text x="70" y="910">[+] Evaluation before presentation: demo != experiment</text>
-    <text x="70" y="932">[+] Reviewability matters: evidence survives inspection</text>
-  </g>
-
-  <rect x="614" y="808" width="534" height="136" fill="#120F22" stroke="#A855F7" stroke-width="2"/>
-  <text x="632" y="838" fill="#D8B4FE" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="700">CONNECTED_DOMAINS</text>
-  <g fill="#E6DDF7" font-family="Consolas, Menlo, monospace" font-size="12">
-    <text x="632" y="866">[01] Speech / TTS systems     [04] Synthetic speech analysis</text>
-    <text x="632" y="888">[02] AI reliability          [05] Speech forensics</text>
-    <text x="632" y="910">[03] Evaluation methodology  [06] Generative-audio AI security</text>
-  </g>
-
-  <!-- bottom step gradient -->
-  <g><rect x="28" y="972" width="160" height="8" fill="#22D3EE"/><rect x="188" y="972" width="160" height="8" fill="#38BDF8"/><rect x="348" y="972" width="160" height="8" fill="#3B82F6"/><rect x="508" y="972" width="160" height="8" fill="#6366F1"/><rect x="668" y="972" width="160" height="8" fill="#8B5CF6"/><rect x="828" y="972" width="160" height="8" fill="#A855F7"/><rect x="988" y="972" width="184" height="8" fill="#C084FC"/></g>
+  <rect x="52" y="808" width="534" height="136" fill="#07131C" stroke="#22D3EE" stroke-width="2"/><text x="70" y="838" fill="#67E8F9" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="700">RESEARCH_PROTOCOL</text>
+  <g fill="#D8E4F2" font-family="Consolas, Menlo, monospace" font-size="12"><text x="70" y="866">[+] Reproducibility first: assets, cases, outputs traceable</text><text x="70" y="888">[+] Failures are evidence: infrastructure + science recorded</text><text x="70" y="910">[+] Evaluation before presentation: demo != experiment</text><text x="70" y="932">[+] Reviewability matters: evidence survives inspection</text></g>
+  <rect x="614" y="808" width="534" height="136" fill="#120F22" stroke="#A855F7" stroke-width="2"/><text x="632" y="838" fill="#D8B4FE" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="700">CONNECTED_DOMAINS</text>
+  <g fill="#E6DDF7" font-family="Consolas, Menlo, monospace" font-size="12"><text x="632" y="866">[01] Speech / TTS systems     [04] Synthetic speech analysis</text><text x="632" y="888">[02] AI reliability          [05] Speech forensics</text><text x="632" y="910">[03] Evaluation methodology  [06] Generative-audio AI security</text></g>
+  <g><rect x="28" y="972" width="160" height="8" fill="#22D3EE"><animate attributeName="opacity" values="1;0.3;1" dur="5.2s" begin="2.1s" repeatCount="indefinite"/></rect><rect x="188" y="972" width="160" height="8" fill="#38BDF8"><animate attributeName="opacity" values="1;0.3;1" dur="5.2s" begin="1.75s" repeatCount="indefinite"/></rect><rect x="348" y="972" width="160" height="8" fill="#3B82F6"><animate attributeName="opacity" values="1;0.3;1" dur="5.2s" begin="1.4s" repeatCount="indefinite"/></rect><rect x="508" y="972" width="160" height="8" fill="#6366F1"><animate attributeName="opacity" values="1;0.3;1" dur="5.2s" begin="1.05s" repeatCount="indefinite"/></rect><rect x="668" y="972" width="160" height="8" fill="#8B5CF6"><animate attributeName="opacity" values="1;0.3;1" dur="5.2s" begin="0.7s" repeatCount="indefinite"/></rect><rect x="828" y="972" width="160" height="8" fill="#A855F7"><animate attributeName="opacity" values="1;0.3;1" dur="5.2s" begin="0.35s" repeatCount="indefinite"/></rect><rect x="988" y="972" width="184" height="8" fill="#C084FC"><animate attributeName="opacity" values="1;0.3;1" dur="5.2s" begin="0s" repeatCount="indefinite"/></rect></g>
 </svg>
