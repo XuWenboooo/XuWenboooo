@@ -113,7 +113,9 @@ flowchart LR
 
 ---
 
-## `// RESEARCH_VECTOR`
+<div align="center">
+<img width="100%" src="./assets/section-research-vector.svg" alt="Research Vector" />
+</div>
 
 <table>
 <tr>
@@ -172,57 +174,15 @@ flowchart LR
 
 ---
 
-## `// SELECTED_SYSTEMS`
+<div align="center">
+<img width="100%" src="./assets/section-selected-systems.svg" alt="Selected Systems" />
+</div>
 
-### `01 // Protocol Converter`
+[![Protocol Converter](./assets/project-protocol-converter.svg)](https://github.com/XuWenboooo/protocol-converter)
 
-> **OpenAI-style ↔ Anthropic-style protocol translation through a unified intermediate representation.**
+[![Paper Reading Assistant](./assets/project-paper-reading.svg)](https://github.com/XuWenboooo/paper-reading-assistant)
 
-A systems-oriented project exploring protocol interoperability, stateful conversations, memory injection, gateway design, and KV-cache observability.
-
-**System modules**
-
-`IR` → `Adapters` → `State` → `Gateway` → `Memory Injection` → `Cache Observability` → `Experiments`
-
-- Unified intermediate representation
-- OpenAI Chat / Responses / Anthropic adapters
-- Stateful conversation layer
-- Memory injection
-- KV-cache observability
-- HTTP gateway and streaming support
-- Automated multi-version CI
-
-[**ACCESS REPOSITORY →**](https://github.com/XuWenboooo/protocol-converter)
-
----
-
-### `02 // Paper Reading Assistant`
-
-> **An evaluation-driven LLM system for academic paper understanding.**
-
-The project includes a six-dimensional evaluation framework rather than only a paper-chat interface.
-
-`Factual Accuracy` · `Citation Accuracy` · `Terminology` · `Completeness` · `Comprehensibility` · `Safety`
-
-- PDF / DOCX / Markdown parsing
-- LLM-based question answering
-- Synthetic evaluation dataset construction
-- LLM-as-Judge evaluation
-- Rule-based validation
-
-[**ACCESS REPOSITORY →**](https://github.com/XuWenboooo/paper-reading-assistant)
-
----
-
-### `03 // MCP Research Assistant`
-
-> **A multi-tool research assistant built around the Model Context Protocol.**
-
-A modular MCP system combining document processing, search, analysis, knowledge retrieval, and multi-step tool workflows.
-
-`MCP` · `Agents` · `Tool Use` · `Research Automation`
-
-[**ACCESS REPOSITORY →**](https://github.com/XuWenboooo/mcp-tool-assistant)
+[![MCP Research Assistant](./assets/project-mcp-assistant.svg)](https://github.com/XuWenboooo/mcp-tool-assistant)
 
 ---
 
@@ -280,12 +240,13 @@ I care not only about whether a system works, but whether the result is **reprod
 
 ---
 
-## `// TELEMETRY`
-
 <div align="center">
+<img width="100%" src="./assets/section-telemetry.svg" alt="GitHub Telemetry" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=XuWenboooo&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight&bg_color=00000000" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=XuWenboooo&layout=compact&hide_border=true&theme=tokyonight&bg_color=00000000" />
+<br/>
+
+<img height="168" src="https://github-readme-stats.vercel.app/api?username=XuWenboooo&show_icons=true&rank_icon=github&hide_border=false&border_radius=0&border_color=22D3EE&bg_color=05070D&title_color=8DF7FF&text_color=C8D9FF&icon_color=5CFF9D" />
+<img height="168" src="https://github-readme-stats.vercel.app/api/top-langs/?username=XuWenboooo&layout=compact&hide_border=false&border_radius=0&border_color=A855F7&bg_color=05070D&title_color=E9D5FF&text_color=C8D9FF" />
 
 </div>
 
