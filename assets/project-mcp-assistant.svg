@@ -1,0 +1,15 @@
+<svg width="1200" height="190" viewBox="0 0 1200 190" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <rect width="1200" height="190" fill="#05070D"/>
+  <path d="M18 12H1182V20H1190V170H1182V178H18V170H10V20H18Z" fill="#0D0A18" stroke="#A855F7" stroke-width="2"/>
+  <rect x="34" y="30" width="10" height="10" fill="#C084FC"/>
+  <text x="56" y="41" fill="#E9D5FF" font-family="Consolas, Menlo, monospace" font-size="13" letter-spacing="2">PROJECT_03 // AGENT SYSTEM</text>
+  <text x="34" y="82" fill="#F8FAFC" font-family="Consolas, Menlo, monospace" font-size="30" font-weight="700">MCP RESEARCH ASSISTANT</text>
+  <text x="34" y="108" fill="#DDD6FE" font-family="Consolas, Menlo, monospace" font-size="14">Multi-tool research workflow built around the Model Context Protocol</text>
+  <text x="34" y="137" fill="#A78BFA" font-family="Consolas, Menlo, monospace" font-size="13">MCP  TOOLS  RETRIEVAL  DOCUMENTS  ORCHESTRATION  MULTI-STEP WORKFLOWS</text>
+  <rect x="914" y="48" width="226" height="76" fill="#150D25" stroke="#A855F7"/>
+  <text x="938" y="77" fill="#D8B4FE" font-family="Consolas, Menlo, monospace" font-size="13">MODE: TOOL USE</text>
+  <text x="938" y="101" fill="#E9D5FF" font-family="Consolas, Menlo, monospace" font-size="13">MCP / AGENTS</text>
+  <rect x="938" y="112" width="122" height="6" fill="#2E1065"/>
+  <rect x="938" y="112" width="82" height="6" fill="#A855F7"/>
+  <text x="34" y="166" fill="#C084FC" font-family="Consolas, Menlo, monospace" font-size="13">[ OPEN REPOSITORY &gt; ]</text>
+</svg>
