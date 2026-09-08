@@ -1,0 +1,15 @@
+<svg width="1200" height="190" viewBox="0 0 1200 190" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <rect width="1200" height="190" fill="#05070D"/>
+  <path d="M18 12H1182V20H1190V170H1182V178H18V170H10V20H18Z" fill="#0A0D1C" stroke="#60A5FA" stroke-width="2"/>
+  <rect x="34" y="30" width="10" height="10" fill="#60A5FA"/>
+  <text x="56" y="41" fill="#BFDBFE" font-family="Consolas, Menlo, monospace" font-size="13" letter-spacing="2">PROJECT_02 // EVALUATION</text>
+  <text x="34" y="82" fill="#F8FAFC" font-family="Consolas, Menlo, monospace" font-size="30" font-weight="700">PAPER READING ASSISTANT</text>
+  <text x="34" y="108" fill="#C8D9FF" font-family="Consolas, Menlo, monospace" font-size="14">Evaluation-driven academic LLM system for paper understanding</text>
+  <text x="34" y="137" fill="#94A3B8" font-family="Consolas, Menlo, monospace" font-size="13">FACTUALITY  CITATION  TERMINOLOGY  COMPLETENESS  SAFETY  LLM-AS-JUDGE</text>
+  <rect x="914" y="48" width="226" height="76" fill="#090F24" stroke="#60A5FA"/>
+  <text x="938" y="77" fill="#93C5FD" font-family="Consolas, Menlo, monospace" font-size="13">MODE: RESEARCH</text>
+  <text x="938" y="101" fill="#C7D2FE" font-family="Consolas, Menlo, monospace" font-size="13">6-DIM EVALUATION</text>
+  <rect x="938" y="112" width="122" height="6" fill="#172554"/>
+  <rect x="938" y="112" width="92" height="6" fill="#60A5FA"/>
+  <text x="34" y="166" fill="#60A5FA" font-family="Consolas, Menlo, monospace" font-size="13">[ OPEN REPOSITORY &gt; ]</text>
+</svg>
