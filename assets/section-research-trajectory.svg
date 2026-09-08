@@ -1,0 +1,35 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070D"/><stop offset="0.55" stop-color="#071323"/><stop offset="1" stop-color="#130B22"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#FFFFFF" opacity="0.035"/></pattern>
+    <linearGradient id="edge" x1="24" y1="20" x2="1176" y2="340" gradientUnits="userSpaceOnUse"><stop stop-color="#22D3EE"/><stop offset="0.52" stop-color="#5B8CFF"/><stop offset="1" stop-color="#C86BFF"/></linearGradient>
+  </defs>
+  <rect width="1200" height="360" fill="url(#bg)"/><rect width="1200" height="360" fill="url(#scan)"/>
+  <path d="M30 22H1170V30H1178V330H1170V338H30V330H22V30H30Z" fill="none" stroke="url(#edge)" stroke-width="2"/>
+  <rect x="50" y="47" width="11" height="11" fill="#5CFF9D"/><text x="75" y="58" fill="#8DF7FF" font-family="Consolas, Menlo, monospace" font-size="15" letter-spacing="2">RESEARCH_TRAJECTORY // SIGNAL PATH</text>
+  <text x="935" y="58" fill="#5CFF9D" font-family="Consolas, Menlo, monospace" font-size="13">VECTOR: LOCKED</text>
+
+  <g font-family="Consolas, Menlo, monospace" font-size="14">
+    <rect x="58" y="136" width="180" height="72" fill="#071827" stroke="#22D3EE" stroke-width="2"/>
+    <text x="81" y="166" fill="#8DF7FF" font-weight="700">LLM SYSTEMS</text><text x="81" y="190" fill="#7DD3FC" font-size="12">ROOT NODE</text>
+
+    <rect x="302" y="86" width="220" height="56" fill="#071423" stroke="#38BDF8"/><text x="326" y="120" fill="#BAE6FD">EVALUATION &amp; RELIABILITY</text>
+    <rect x="302" y="156" width="220" height="56" fill="#0A1430" stroke="#60A5FA"/><text x="335" y="190" fill="#BFDBFE">AGENT / MCP SYSTEMS</text>
+    <rect x="302" y="226" width="220" height="56" fill="#10112C" stroke="#8B5CF6"/><text x="359" y="260" fill="#DDD6FE">AI SECURITY</text>
+
+    <rect x="594" y="226" width="224" height="56" fill="#13112D" stroke="#A78BFA"/><text x="622" y="260" fill="#E9D5FF">SPEECH / TTS SECURITY</text>
+    <rect x="884" y="218" width="250" height="72" fill="#180F2D" stroke="#C084FC" stroke-width="2"/>
+    <text x="915" y="248" fill="#F3E8FF" font-weight="700">ROBUST EVALUATION</text><text x="936" y="270" fill="#E9D5FF">&amp; FORENSICS</text>
+  </g>
+
+  <g fill="none" stroke-width="2">
+    <path d="M238 172H270V114H302" stroke="#22D3EE"/><path d="M238 172H302" stroke="#60A5FA"/><path d="M238 172H270V254H302" stroke="#8B5CF6"/>
+    <path d="M522 254H594" stroke="#A78BFA"/><path d="M818 254H884" stroke="#C084FC"/>
+  </g>
+  <g fill="#5CFF9D"><rect x="266" y="110" width="8" height="8"/><rect x="266" y="168" width="8" height="8"/><rect x="266" y="250" width="8" height="8"/><rect x="558" y="250" width="8" height="8"/><rect x="848" y="250" width="8" height="8"/></g>
+
+  <rect x="58" y="306" width="1076" height="1" fill="#22D3EE" opacity="0.35"/>
+  <text x="58" y="327" fill="#94A3B8" font-family="Consolas, Menlo, monospace" font-size="12">OBJECTIVE // CONNECT SYSTEMS ENGINEERING → EVALUATION → SECURITY → SPEECH INTELLIGENCE</text>
+</svg>
