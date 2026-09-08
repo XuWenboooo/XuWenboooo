@@ -1,55 +1,71 @@
-<svg width="1200" height="380" viewBox="0 0 1200 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="390" viewBox="0 0 1200 390" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
   <defs>
-    <linearGradient id="bg2" x1="0" y1="0" x2="1200" y2="380" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#030712"/>
-      <stop offset="0.5" stop-color="#071A2E"/>
-      <stop offset="1" stop-color="#160A2D"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#04070D"/>
+      <stop offset="0.55" stop-color="#071827"/>
+      <stop offset="1" stop-color="#150C24"/>
     </linearGradient>
-    <linearGradient id="edge" x1="80" y1="40" x2="1110" y2="340" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="0.55" stop-color="#3B82F6"/>
-      <stop offset="1" stop-color="#A855F7"/>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#FFFFFF" opacity="0.03"/></pattern>
+    <linearGradient id="edge" x1="28" y1="24" x2="1170" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2EF2FF"/><stop offset="0.52" stop-color="#4A8CFF"/><stop offset="1" stop-color="#C86BFF"/>
     </linearGradient>
-    <linearGradient id="wave" x1="90" y1="0" x2="1100" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="0.5" stop-color="#60A5FA"/>
-      <stop offset="1" stop-color="#C084FC"/>
-    </linearGradient>
-    <filter id="g" x="-30%" y="-50%" width="160%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
 
-  <rect width="1200" height="380" rx="22" fill="url(#bg2)"/>
-  <rect x="30" y="26" width="1140" height="328" rx="18" stroke="url(#edge)" stroke-opacity="0.38"/>
+  <rect width="1200" height="390" fill="url(#bg)"/>
+  <rect width="1200" height="390" fill="url(#scan)"/>
 
-  <text x="62" y="70" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="2.5">FLAGSHIP_RESEARCH // ACTIVE</text>
-  <text x="60" y="126" fill="white" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="45" font-weight="700">AudiobookBench-CN</text>
-  <text x="62" y="160" fill="#BFDBFE" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">Long-form Chinese TTS Evaluation · Reproducibility · Auditability · AI Reliability</text>
+  <!-- chunky pixel frame -->
+  <path d="M30 22H1170V30H1178V360H1170V368H30V360H22V30H30Z" fill="none" stroke="url(#edge)" stroke-width="2"/>
+  <rect x="52" y="48" width="10" height="10" fill="#5CFF9D"/>
+  <text x="74" y="58" fill="#8DF7FF" font-family="Consolas, Menlo, monospace" font-size="14" letter-spacing="2">FLAGSHIP PROJECT // ACTIVE RESEARCH</text>
 
-  <g stroke="url(#wave)" stroke-width="3" filter="url(#g)" opacity="0.95">
-    <path d="M70 219 L95 219 L108 205 L123 235 L140 178 L158 264 L178 196 L194 228 L212 207 L228 219 L244 219 L260 187 L275 245 L291 167 L309 272 L327 192 L344 239 L360 206 L378 219 L398 219 L415 196 L432 235 L447 183 L465 252 L483 199 L501 231 L518 211 L536 219 L554 219 L570 190 L588 247 L604 172 L623 268 L641 193 L660 238 L679 207 L696 219 L716 219 L734 194 L750 239 L766 180 L785 256 L804 197 L823 233 L842 210 L861 219 L880 219 L897 190 L915 246 L932 174 L950 266 L969 194 L988 237 L1007 207 L1025 219 L1044 219 L1060 201 L1078 230 L1096 209 L1118 219"/>
+  <text x="52" y="118" fill="#F8FAFC" font-family="Consolas, Menlo, monospace" font-size="40" font-weight="700">AUDIOBOOKBENCH-CN</text>
+  <text x="54" y="151" fill="#C8D9FF" font-family="Consolas, Menlo, monospace" font-size="16">LONG-FORM CHINESE TTS EVALUATION // REPRODUCIBLE // AUDITABLE</text>
+
+  <!-- pixel waveform -->
+  <g transform="translate(54 190)">
+    <rect x="0" y="34" width="8" height="20" fill="#22D3EE"/>
+    <rect x="16" y="22" width="8" height="44" fill="#22D3EE"/>
+    <rect x="32" y="6" width="8" height="76" fill="#22D3EE"/>
+    <rect x="48" y="28" width="8" height="32" fill="#22D3EE"/>
+    <rect x="64" y="-2" width="8" height="92" fill="#38BDF8"/>
+    <rect x="80" y="18" width="8" height="52" fill="#38BDF8"/>
+    <rect x="96" y="34" width="8" height="20" fill="#38BDF8"/>
+    <rect x="112" y="14" width="8" height="60" fill="#60A5FA"/>
+    <rect x="128" y="26" width="8" height="36" fill="#60A5FA"/>
+    <rect x="144" y="0" width="8" height="88" fill="#60A5FA"/>
+    <rect x="160" y="18" width="8" height="52" fill="#818CF8"/>
+    <rect x="176" y="32" width="8" height="24" fill="#818CF8"/>
+    <rect x="192" y="10" width="8" height="68" fill="#A78BFA"/>
+    <rect x="208" y="22" width="8" height="44" fill="#A78BFA"/>
+    <rect x="224" y="34" width="8" height="20" fill="#C084FC"/>
+    <rect x="240" y="18" width="8" height="52" fill="#C084FC"/>
+    <rect x="256" y="30" width="8" height="28" fill="#C084FC"/>
   </g>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
-    <rect x="63" y="290" width="205" height="38" rx="8" fill="#071E2B" stroke="#22D3EE" stroke-opacity="0.55"/>
-    <text x="84" y="314" fill="#A5F3FC">BENCHMARK DESIGN</text>
+  <!-- research console -->
+  <rect x="430" y="180" width="700" height="104" fill="#07111F" stroke="#203B54" stroke-width="2"/>
+  <text x="450" y="205" fill="#5CF2FF" font-family="Consolas, Menlo, monospace" font-size="13">// PIPELINE STATUS</text>
+  <text x="450" y="232" fill="#D4E2F4" font-family="Consolas, Menlo, monospace" font-size="14">BENCHMARK_DESIGN   [##########] 100%</text>
+  <text x="450" y="254" fill="#D4E2F4" font-family="Consolas, Menlo, monospace" font-size="14">EVALUATION_FLOW   [##########] ACTIVE</text>
+  <text x="450" y="276" fill="#7EFCC0" font-family="Consolas, Menlo, monospace" font-size="14">AUDITABILITY      [ONLINE]</text>
 
-    <rect x="286" y="290" width="205" height="38" rx="8" fill="#071A31" stroke="#60A5FA" stroke-opacity="0.55"/>
-    <text x="317" y="314" fill="#BFDBFE">GENERATION</text>
-
-    <rect x="509" y="290" width="205" height="38" rx="8" fill="#0A1734" stroke="#818CF8" stroke-opacity="0.55"/>
-    <text x="541" y="314" fill="#C7D2FE">EVALUATION</text>
-
-    <rect x="732" y="290" width="205" height="38" rx="8" fill="#12132F" stroke="#A78BFA" stroke-opacity="0.55"/>
-    <text x="758" y="314" fill="#DDD6FE">VALIDATION</text>
-
-    <rect x="955" y="290" width="180" height="38" rx="8" fill="#1B102E" stroke="#C084FC" stroke-opacity="0.55"/>
-    <text x="989" y="314" fill="#E9D5FF">AUDIT</text>
+  <!-- pixel pipeline buttons -->
+  <g font-family="Consolas, Menlo, monospace" font-size="12">
+    <rect x="54" y="318" width="188" height="34" fill="#071C26" stroke="#22D3EE" stroke-width="2"/>
+    <text x="72" y="339" fill="#A5F3FC">01 BENCHMARK</text>
+    <rect x="258" y="318" width="188" height="34" fill="#08192B" stroke="#60A5FA" stroke-width="2"/>
+    <text x="280" y="339" fill="#BFDBFE">02 GENERATE</text>
+    <rect x="462" y="318" width="188" height="34" fill="#0D1730" stroke="#818CF8" stroke-width="2"/>
+    <text x="482" y="339" fill="#C7D2FE">03 EVALUATE</text>
+    <rect x="666" y="318" width="188" height="34" fill="#14142D" stroke="#A78BFA" stroke-width="2"/>
+    <text x="686" y="339" fill="#DDD6FE">04 VALIDATE</text>
+    <rect x="870" y="318" width="188" height="34" fill="#1A112B" stroke="#C084FC" stroke-width="2"/>
+    <text x="913" y="339" fill="#E9D5FF">05 AUDIT</text>
   </g>
 
-  <g stroke="url(#edge)" stroke-width="1.5" opacity="0.55">
-    <path d="M268 309H286"/><path d="M491 309H509"/><path d="M714 309H732"/><path d="M937 309H955"/>
+  <g fill="#D8F8FF" opacity="0.65">
+    <rect x="1090" y="66" width="4" height="4"/><rect x="1116" y="90" width="3" height="3"/>
+    <rect x="1056" y="124" width="4" height="4"/><rect x="1130" y="138" width="3" height="3"/>
   </g>
 </svg>
