@@ -1,71 +1,34 @@
 <svg width="1200" height="390" viewBox="0 0 1200 390" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="390" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#04070D"/>
-      <stop offset="0.55" stop-color="#071827"/>
-      <stop offset="1" stop-color="#150C24"/>
-    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="390" gradientUnits="userSpaceOnUse"><stop stop-color="#04070D"/><stop offset="0.55" stop-color="#071827"/><stop offset="1" stop-color="#150C24"/></linearGradient>
     <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#FFFFFF" opacity="0.03"/></pattern>
     <linearGradient id="edge" x1="28" y1="24" x2="1170" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2EF2FF"/><stop offset="0.52" stop-color="#4A8CFF"/><stop offset="1" stop-color="#C86BFF"/>
+      <stop stop-color="#2EF2FF"><animate attributeName="stop-color" values="#2EF2FF;#60A5FA;#2EF2FF" dur="9s" repeatCount="indefinite"/></stop>
+      <stop offset="0.52" stop-color="#4A8CFF"><animate attributeName="stop-color" values="#4A8CFF;#A855F7;#4A8CFF" dur="9s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#C86BFF"><animate attributeName="stop-color" values="#C86BFF;#22D3EE;#C86BFF" dur="9s" repeatCount="indefinite"/></stop>
     </linearGradient>
   </defs>
-
-  <rect width="1200" height="390" fill="url(#bg)"/>
-  <rect width="1200" height="390" fill="url(#scan)"/>
-
-  <!-- chunky pixel frame -->
+  <rect width="1200" height="390" fill="url(#bg)"/><rect width="1200" height="390" fill="url(#scan)"/>
+  <rect x="22" y="30" width="1156" height="2" fill="#67E8F9" opacity="0.06"><animate attributeName="y" values="30;358;30" dur="12s" repeatCount="indefinite"/></rect>
   <path d="M30 22H1170V30H1178V360H1170V368H30V360H22V30H30Z" fill="none" stroke="url(#edge)" stroke-width="2"/>
-  <rect x="52" y="48" width="10" height="10" fill="#5CFF9D"/>
+  <rect x="52" y="48" width="10" height="10" fill="#5CFF9D"><animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></rect>
   <text x="74" y="58" fill="#8DF7FF" font-family="Consolas, Menlo, monospace" font-size="14" letter-spacing="2">FLAGSHIP PROJECT // ACTIVE RESEARCH</text>
-
   <text x="52" y="118" fill="#F8FAFC" font-family="Consolas, Menlo, monospace" font-size="40" font-weight="700">AUDIOBOOKBENCH-CN</text>
   <text x="54" y="151" fill="#C8D9FF" font-family="Consolas, Menlo, monospace" font-size="16">LONG-FORM CHINESE TTS EVALUATION // REPRODUCIBLE // AUDITABLE</text>
-
-  <!-- pixel waveform -->
-  <g transform="translate(54 190)">
-    <rect x="0" y="34" width="8" height="20" fill="#22D3EE"/>
-    <rect x="16" y="22" width="8" height="44" fill="#22D3EE"/>
-    <rect x="32" y="6" width="8" height="76" fill="#22D3EE"/>
-    <rect x="48" y="28" width="8" height="32" fill="#22D3EE"/>
-    <rect x="64" y="-2" width="8" height="92" fill="#38BDF8"/>
-    <rect x="80" y="18" width="8" height="52" fill="#38BDF8"/>
-    <rect x="96" y="34" width="8" height="20" fill="#38BDF8"/>
-    <rect x="112" y="14" width="8" height="60" fill="#60A5FA"/>
-    <rect x="128" y="26" width="8" height="36" fill="#60A5FA"/>
-    <rect x="144" y="0" width="8" height="88" fill="#60A5FA"/>
-    <rect x="160" y="18" width="8" height="52" fill="#818CF8"/>
-    <rect x="176" y="32" width="8" height="24" fill="#818CF8"/>
-    <rect x="192" y="10" width="8" height="68" fill="#A78BFA"/>
-    <rect x="208" y="22" width="8" height="44" fill="#A78BFA"/>
-    <rect x="224" y="34" width="8" height="20" fill="#C084FC"/>
-    <rect x="240" y="18" width="8" height="52" fill="#C084FC"/>
-    <rect x="256" y="30" width="8" height="28" fill="#C084FC"/>
+  <g transform="translate(54 190)"><animate attributeName="opacity" values="0.55;1;0.7;1;0.55" dur="3.2s" repeatCount="indefinite"/>
+    <rect x="0" y="34" width="8" height="20" fill="#22D3EE"/><rect x="16" y="22" width="8" height="44" fill="#22D3EE"/><rect x="32" y="6" width="8" height="76" fill="#22D3EE"/><rect x="48" y="28" width="8" height="32" fill="#22D3EE"/><rect x="64" y="-2" width="8" height="92" fill="#38BDF8"/><rect x="80" y="18" width="8" height="52" fill="#38BDF8"/><rect x="96" y="34" width="8" height="20" fill="#38BDF8"/><rect x="112" y="14" width="8" height="60" fill="#60A5FA"/><rect x="128" y="26" width="8" height="36" fill="#60A5FA"/><rect x="144" y="0" width="8" height="88" fill="#60A5FA"/><rect x="160" y="18" width="8" height="52" fill="#818CF8"/><rect x="176" y="32" width="8" height="24" fill="#818CF8"/><rect x="192" y="10" width="8" height="68" fill="#A78BFA"/><rect x="208" y="22" width="8" height="44" fill="#A78BFA"/><rect x="224" y="34" width="8" height="20" fill="#C084FC"/><rect x="240" y="18" width="8" height="52" fill="#C084FC"/><rect x="256" y="30" width="8" height="28" fill="#C084FC"/>
   </g>
-
-  <!-- research console -->
   <rect x="430" y="180" width="700" height="104" fill="#07111F" stroke="#203B54" stroke-width="2"/>
   <text x="450" y="205" fill="#5CF2FF" font-family="Consolas, Menlo, monospace" font-size="13">// PIPELINE STATUS</text>
   <text x="450" y="232" fill="#D4E2F4" font-family="Consolas, Menlo, monospace" font-size="14">BENCHMARK_DESIGN   [##########] 100%</text>
   <text x="450" y="254" fill="#D4E2F4" font-family="Consolas, Menlo, monospace" font-size="14">EVALUATION_FLOW   [##########] ACTIVE</text>
-  <text x="450" y="276" fill="#7EFCC0" font-family="Consolas, Menlo, monospace" font-size="14">AUDITABILITY      [ONLINE]</text>
-
-  <!-- pixel pipeline buttons -->
+  <text x="450" y="276" fill="#7EFCC0" font-family="Consolas, Menlo, monospace" font-size="14">AUDITABILITY      [ONLINE]<animate attributeName="opacity" values="1;0.45;1" dur="2.2s" repeatCount="indefinite"/></text>
   <g font-family="Consolas, Menlo, monospace" font-size="12">
-    <rect x="54" y="318" width="188" height="34" fill="#071C26" stroke="#22D3EE" stroke-width="2"/>
-    <text x="72" y="339" fill="#A5F3FC">01 BENCHMARK</text>
-    <rect x="258" y="318" width="188" height="34" fill="#08192B" stroke="#60A5FA" stroke-width="2"/>
-    <text x="280" y="339" fill="#BFDBFE">02 GENERATE</text>
-    <rect x="462" y="318" width="188" height="34" fill="#0D1730" stroke="#818CF8" stroke-width="2"/>
-    <text x="482" y="339" fill="#C7D2FE">03 EVALUATE</text>
-    <rect x="666" y="318" width="188" height="34" fill="#14142D" stroke="#A78BFA" stroke-width="2"/>
-    <text x="686" y="339" fill="#DDD6FE">04 VALIDATE</text>
-    <rect x="870" y="318" width="188" height="34" fill="#1A112B" stroke="#C084FC" stroke-width="2"/>
-    <text x="913" y="339" fill="#E9D5FF">05 AUDIT</text>
+    <rect x="54" y="318" width="188" height="34" fill="#071C26" stroke="#22D3EE" stroke-width="2"><animate attributeName="stroke" values="#22D3EE;#60A5FA;#22D3EE" dur="5s" begin="0s" repeatCount="indefinite"/></rect><text x="72" y="339" fill="#A5F3FC">01 BENCHMARK</text>
+    <rect x="258" y="318" width="188" height="34" fill="#08192B" stroke="#60A5FA" stroke-width="2"><animate attributeName="stroke" values="#60A5FA;#818CF8;#60A5FA" dur="5s" begin="0.6s" repeatCount="indefinite"/></rect><text x="280" y="339" fill="#BFDBFE">02 GENERATE</text>
+    <rect x="462" y="318" width="188" height="34" fill="#0D1730" stroke="#818CF8" stroke-width="2"><animate attributeName="stroke" values="#818CF8;#A78BFA;#818CF8" dur="5s" begin="1.2s" repeatCount="indefinite"/></rect><text x="482" y="339" fill="#C7D2FE">03 EVALUATE</text>
+    <rect x="666" y="318" width="188" height="34" fill="#14142D" stroke="#A78BFA" stroke-width="2"><animate attributeName="stroke" values="#A78BFA;#C084FC;#A78BFA" dur="5s" begin="1.8s" repeatCount="indefinite"/></rect><text x="686" y="339" fill="#DDD6FE">04 VALIDATE</text>
+    <rect x="870" y="318" width="188" height="34" fill="#1A112B" stroke="#C084FC" stroke-width="2"><animate attributeName="stroke" values="#C084FC;#22D3EE;#C084FC" dur="5s" begin="2.4s" repeatCount="indefinite"/></rect><text x="913" y="339" fill="#E9D5FF">05 AUDIT</text>
   </g>
-
-  <g fill="#D8F8FF" opacity="0.65">
-    <rect x="1090" y="66" width="4" height="4"/><rect x="1116" y="90" width="3" height="3"/>
-    <rect x="1056" y="124" width="4" height="4"/><rect x="1130" y="138" width="3" height="3"/>
-  </g>
+  <g fill="#D8F8FF" opacity="0.65"><animate attributeName="opacity" values="0.25;0.8;0.25" dur="4.5s" repeatCount="indefinite"/><rect x="1090" y="66" width="4" height="4"/><rect x="1116" y="90" width="3" height="3"/><rect x="1056" y="124" width="4" height="4"/><rect x="1130" y="138" width="3" height="3"/></g>
 </svg>
