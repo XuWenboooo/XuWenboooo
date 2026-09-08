@@ -14,163 +14,23 @@
 
 ---
 
-## `// FLAGSHIP_RESEARCH`
-
 <div align="center">
-
 <img width="100%" src="./assets/audiobookbench-neon.svg" alt="AudiobookBench-CN flagship research" />
 
-</div>
+<br/>
 
-> **AudiobookBench-CN is my current flagship research project.**  
-> The project studies **long-form Chinese TTS evaluation** under controlled, reproducible, and audit-friendly experimental protocols.
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### `01 // QUESTION`
-
-How should long-form TTS systems be evaluated when **demo quality alone is not enough**?
-
-</td>
-<td width="33%" valign="top">
-
-### `02 // SYSTEM`
-
-Treat evaluation itself as a **research system**: benchmark design, execution discipline, provenance, validation, and audit all matter.
-
-</td>
-<td width="33%" valign="top">
-
-### `03 // DIRECTION`
-
-Use this benchmark as a foundation for future work in **speech reliability, synthetic-speech forensics, and AI security**.
-
-</td>
-</tr>
-</table>
-
-### `RESEARCH_MATRIX`
-
-| Signal | AudiobookBench-CN |
-|---|---|
-| **Task** | Long-form Chinese audiobook-style TTS |
-| **Primary goal** | Reliable and reproducible evaluation |
-| **Experimental style** | Controlled protocols rather than ad-hoc demos |
-| **Evidence model** | Structured outputs, provenance, validation and lineage |
-| **Failure model** | Failures are accounted for rather than silently discarded |
-| **Research trajectory** | TTS evaluation → reliability → forensics → AI security |
-
-### `PIPELINE // EVIDENCE_FLOW`
-
-```mermaid
-flowchart LR
-    A[Research Question] --> B[Benchmark Design]
-    B --> C[Generation Protocol]
-    C --> D[Evaluation]
-    D --> E[Validation & Lineage]
-    E --> F[Failure Accounting]
-    F --> G[Scientific Audit]
-    G --> H[Reproducible Evidence]
-```
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### `RESEARCH_PROTOCOL`
-
-- **Reproducibility first** — settings, assets, cases, and outputs should be traceable
-- **Failures are evidence** — infrastructure and scientific failures should be recorded
-- **Evaluation before presentation** — a polished demo is not a controlled experiment
-- **Reviewability matters** — results should survive independent inspection
-
-</td>
-<td width="50%" valign="top">
-
-### `CONNECTED_DOMAINS`
-
-- Speech / TTS systems
-- AI reliability
-- Evaluation methodology
-- Synthetic speech analysis
-- Speech forensics
-- AI security for generative audio
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-![Speech](https://img.shields.io/badge/SPEECH-TTS-0e7490?style=for-the-badge)
-![Evaluation](https://img.shields.io/badge/EVALUATION-REPRODUCIBLE-1d4ed8?style=for-the-badge)
-![Audit](https://img.shields.io/badge/SCIENCE-AUDITABLE-6d28d9?style=for-the-badge)
-![Security](https://img.shields.io/badge/DIRECTION-AI%20SECURITY-7e22ce?style=for-the-badge)
-
+<img width="100%" src="./assets/flagship-research-hud.svg" alt="AudiobookBench-CN research questions, matrix, evidence flow, protocol and connected domains" />
 </div>
 
 ---
 
 <div align="center">
 <img width="100%" src="./assets/section-research-vector.svg" alt="Research Vector" />
+
+<br/>
+
+<img width="100%" src="./assets/research-vector-grid.svg" alt="AI Security, Speech and TTS, LLM Systems, Agents and MCP research vector" />
 </div>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🛡️ AI Security
-
-`ROBUSTNESS` `OOD` `GENERATIVE SECURITY`
-
-- Robustness of AI systems
-- Open-set / OOD evaluation
-- Generative AI security
-- Reliability and failure analysis
-
-</td>
-<td width="50%" valign="top">
-
-### 🎙️ Speech & TTS
-
-`LONG-FORM` `FORENSICS` `AUDIO`
-
-- Long-form speech generation
-- TTS evaluation
-- Synthetic speech forensics
-- Robust audio intelligence
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 LLM Systems
-
-`EVALUATION` `MEMORY` `PROTOCOLS`
-
-- LLM evaluation
-- Context & memory systems
-- Protocol interoperability
-- Reproducible AI experiments
-
-</td>
-<td width="50%" valign="top">
-
-### 🔧 Agents & MCP
-
-`TOOLS` `WORKFLOWS` `BOUNDARIES`
-
-- Tool-augmented agents
-- MCP-based systems
-- Multi-step research workflows
-- Agent safety and tool boundaries
-
-</td>
-</tr>
-</table>
 
 ---
 
