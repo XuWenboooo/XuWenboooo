@@ -1,87 +1,75 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0f172a,35:1d4ed8,70:7c3aed,100:0ea5e9&text=Wenbo%20Xu&fontColor=ffffff&fontSize=52&fontAlignY=35&desc=AI%20Security%20%C2%B7%20Speech%20/%20TTS%20%C2%B7%20LLM%20Systems%20%C2%B7%20Agents%20/%20MCP&descAlignY=58" />
+<img width="100%" src="./assets/hero-neon.svg" alt="Wenbo Xu — AI Security, Speech/TTS, LLM Systems" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=760&lines=Exploring+AI+Security+%26+Speech+Intelligence;Building+Reliable+LLM+Systems;Researching+TTS+Evaluation+%26+Forensics;Turning+Experiments+into+Reproducible+Evidence)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&pause=950&color=67E8F9&center=true&vCenter=true&width=820&lines=%5BSYSTEM%5D+Exploring+AI+Security+%26+Speech+Intelligence;%5BRESEARCH%5D+Long-form+TTS+Evaluation+%26+Forensics;%5BENGINEERING%5D+Reliable+LLM+Systems+%26+Agent+Infrastructure;%5BMETHOD%5D+Build+%E2%86%92+Evaluate+%E2%86%92+Audit+%E2%86%92+Understand)](https://git.io/typing-svg)
 
-**Research-oriented student building reliable AI systems and studying how modern generative models fail, generalize, and interact with real-world environments.**
+![Profile Views](https://komarev.com/ghpvc/?username=XuWenboooo&label=NODE%20VISITS&color=0e7490&style=flat-square)
+![Research](https://img.shields.io/badge/FOCUS-AI%20RELIABILITY-7c3aed?style=flat-square)
+![Status](https://img.shields.io/badge/STATUS-RESEARCH%20IN%20PROGRESS-0891b2?style=flat-square)
 
-![Profile Views](https://komarev.com/ghpvc/?username=XuWenboooo&label=Profile%20Views&color=555555&style=flat)
+`AI Security` · `Speech / TTS` · `LLM Systems` · `Agents / MCP` · `Evaluation` · `Reproducibility`
 
 </div>
 
 ---
 
+## `// FLAGSHIP_RESEARCH`
+
 <div align="center">
 
-# 🎧 Flagship Research — AudiobookBench-CN
-
-## **A Research-Centered Benchmark for Long-Form Chinese TTS Evaluation**
-
-![Status](https://img.shields.io/badge/Status-Active%20Research-2ea44f)
-![Domain](https://img.shields.io/badge/Domain-Speech%20%2F%20TTS-0969da)
-![Focus](https://img.shields.io/badge/Focus-Evaluation-f59e0b)
-![Theme](https://img.shields.io/badge/Theme-AI%20Reliability-8250df)
-![Research](https://img.shields.io/badge/Research-Reproducibility%20%26%20Auditability-d1242f)
+<img width="100%" src="./assets/audiobookbench-neon.svg" alt="AudiobookBench-CN flagship research" />
 
 </div>
 
-> ### **AudiobookBench-CN is my current flagship research project.**
-> It focuses on **long-form Chinese text-to-speech evaluation** under **controlled, reproducible, and audit-friendly** experimental protocols.
+> **AudiobookBench-CN is my current flagship research project.**  
+> The project studies **long-form Chinese TTS evaluation** under controlled, reproducible, and audit-friendly experimental protocols.
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### 🔍 Core Question
+### `01 // QUESTION`
 
 How should long-form TTS systems be evaluated when **demo quality alone is not enough**?
 
 </td>
 <td width="33%" valign="top">
 
-### 🧱 Core Idea
+### `02 // SYSTEM`
 
-Treat evaluation as a **research system**: benchmark design, execution discipline, validation, and scientific audit all matter.
+Treat evaluation itself as a **research system**: benchmark design, execution discipline, provenance, validation, and audit all matter.
 
 </td>
 <td width="33%" valign="top">
 
-### 🎯 Long-Term Value
+### `03 // DIRECTION`
 
-A foundation for future work in **TTS evaluation**, **speech reliability**, **forensics**, and **AI security**.
+Use this benchmark as a foundation for future work in **speech reliability, synthetic-speech forensics, and AI security**.
 
 </td>
 </tr>
 </table>
 
-### 🌟 Research Spotlight
+### `RESEARCH_MATRIX`
 
-| Dimension | AudiobookBench-CN focus |
+| Signal | AudiobookBench-CN |
 |---|---|
 | **Task** | Long-form Chinese audiobook-style TTS |
-| **Research Goal** | Reliable and reproducible evaluation |
-| **Experimental Style** | Controlled protocols instead of ad-hoc demos |
-| **Evidence** | Structured outputs, provenance and validation |
-| **Failure Handling** | Failures are accounted for rather than hidden |
-| **Long-term Value** | Foundation for TTS evaluation, reliability and security research |
+| **Primary goal** | Reliable and reproducible evaluation |
+| **Experimental style** | Controlled protocols rather than ad-hoc demos |
+| **Evidence model** | Structured outputs, provenance, validation and lineage |
+| **Failure model** | Failures are accounted for rather than silently discarded |
+| **Research trajectory** | TTS evaluation → reliability → forensics → AI security |
 
-### 🧠 Why this project matters
-
-- **Benchmark-oriented**, not just demo-oriented
-- **Evaluation-first**, not presentation-first
-- **Failure-aware**, not failure-hiding
-- **Research-auditable**, not loosely documented
-- **Useful as a bridge** from speech generation to reliability and security research
-
-### ⚙️ Research pipeline
+### `PIPELINE // EVIDENCE_FLOW`
 
 ```mermaid
-flowchart TD
-    A[Research Question] --> B[Benchmark & Case Design]
+flowchart LR
+    A[Research Question] --> B[Benchmark Design]
     B --> C[Generation Protocol]
-    C --> D[Evaluation Pipeline]
-    D --> E[Validation & Lineage Checks]
+    C --> D[Evaluation]
+    D --> E[Validation & Lineage]
     E --> F[Failure Accounting]
     F --> G[Scientific Audit]
     G --> H[Reproducible Evidence]
@@ -91,26 +79,24 @@ flowchart TD
 <tr>
 <td width="50%" valign="top">
 
-### 🧪 Research principles
+### `RESEARCH_PROTOCOL`
 
 - **Reproducibility first** — settings, assets, cases, and outputs should be traceable
 - **Failures are evidence** — infrastructure and scientific failures should be recorded
-- **Evaluation before presentation** — a nice demo is not a substitute for a controlled experiment
-- **Reviewability matters** — results should be understandable and independently inspectable
+- **Evaluation before presentation** — a polished demo is not a controlled experiment
+- **Reviewability matters** — results should survive independent inspection
 
 </td>
 <td width="50%" valign="top">
 
-### 🧭 Connected directions
+### `CONNECTED_DOMAINS`
 
-AudiobookBench-CN sits at the intersection of:
-
-- **Speech / TTS systems**
-- **AI reliability**
-- **evaluation methodology**
-- **synthetic speech analysis**
-- **speech forensics**
-- **AI security for generative audio**
+- Speech / TTS systems
+- AI reliability
+- Evaluation methodology
+- Synthetic speech analysis
+- Speech forensics
+- AI security for generative audio
 
 </td>
 </tr>
@@ -118,21 +104,24 @@ AudiobookBench-CN sits at the intersection of:
 
 <div align="center">
 
-`Speech` · `TTS` · `Long-form Generation` · `Benchmarking` · `Evaluation` · `Reproducibility` · `Auditability` · `AI Reliability` · `Forensics`
-
-### 🔬 Status: Active Research
+![Speech](https://img.shields.io/badge/SPEECH-TTS-0e7490?style=for-the-badge)
+![Evaluation](https://img.shields.io/badge/EVALUATION-REPRODUCIBLE-1d4ed8?style=for-the-badge)
+![Audit](https://img.shields.io/badge/SCIENCE-AUDITABLE-6d28d9?style=for-the-badge)
+![Security](https://img.shields.io/badge/DIRECTION-AI%20SECURITY-7e22ce?style=for-the-badge)
 
 </div>
 
 ---
 
-## 🔬 Research Interests
+## `// RESEARCH_VECTOR`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🛡️ AI Security
+
+`ROBUSTNESS` `OOD` `GENERATIVE SECURITY`
 
 - Robustness of AI systems
 - Open-set / OOD evaluation
@@ -143,6 +132,8 @@ AudiobookBench-CN sits at the intersection of:
 <td width="50%" valign="top">
 
 ### 🎙️ Speech & TTS
+
+`LONG-FORM` `FORENSICS` `AUDIO`
 
 - Long-form speech generation
 - TTS evaluation
@@ -156,6 +147,8 @@ AudiobookBench-CN sits at the intersection of:
 
 ### 🧠 LLM Systems
 
+`EVALUATION` `MEMORY` `PROTOCOLS`
+
 - LLM evaluation
 - Context & memory systems
 - Protocol interoperability
@@ -165,6 +158,8 @@ AudiobookBench-CN sits at the intersection of:
 <td width="50%" valign="top">
 
 ### 🔧 Agents & MCP
+
+`TOOLS` `WORKFLOWS` `BOUNDARIES`
 
 - Tool-augmented agents
 - MCP-based systems
@@ -177,15 +172,17 @@ AudiobookBench-CN sits at the intersection of:
 
 ---
 
-# 🚀 Selected Engineering & Research Projects
+## `// SELECTED_SYSTEMS`
 
-## 🔄 Protocol Converter
+### `01 // Protocol Converter`
 
 > **OpenAI-style ↔ Anthropic-style protocol translation through a unified intermediate representation.**
 
 A systems-oriented project exploring protocol interoperability, stateful conversations, memory injection, gateway design, and KV-cache observability.
 
-**Highlights**
+**System modules**
+
+`IR` → `Adapters` → `State` → `Gateway` → `Memory Injection` → `Cache Observability` → `Experiments`
 
 - Unified intermediate representation
 - OpenAI Chat / Responses / Anthropic adapters
@@ -193,25 +190,19 @@ A systems-oriented project exploring protocol interoperability, stateful convers
 - Memory injection
 - KV-cache observability
 - HTTP gateway and streaming support
-- Automated tests
+- Automated multi-version CI
 
-[**View Repository →**](https://github.com/XuWenboooo/-OpenAI-)
-
-`Python` `LLM Systems` `API Gateway` `Caching` `Evaluation`
+[**ACCESS REPOSITORY →**](https://github.com/XuWenboooo/-OpenAI-)
 
 ---
 
-## 📄 Paper Reading Assistant
+### `02 // Paper Reading Assistant`
 
 > **An evaluation-driven LLM system for academic paper understanding.**
 
-Instead of building only a paper-chat demo, this project includes a six-dimensional evaluation framework for measuring answer quality.
+The project includes a six-dimensional evaluation framework rather than only a paper-chat interface.
 
-**Evaluation dimensions**
-
-`Factual Accuracy` · `Citation Accuracy` · `Terminology Correctness` · `Completeness` · `Comprehensibility` · `Safety Compliance`
-
-**Components**
+`Factual Accuracy` · `Citation Accuracy` · `Terminology` · `Completeness` · `Comprehensibility` · `Safety`
 
 - PDF / DOCX / Markdown parsing
 - LLM-based question answering
@@ -219,33 +210,23 @@ Instead of building only a paper-chat demo, this project includes a six-dimensio
 - LLM-as-Judge evaluation
 - Rule-based validation
 
-[**View Repository →**](https://github.com/XuWenboooo/paper-reading-assistant)
-
-`LLM` `Evaluation` `Academic AI` `Research Tools`
+[**ACCESS REPOSITORY →**](https://github.com/XuWenboooo/paper-reading-assistant)
 
 ---
 
-## 🧰 MCP Research Assistant
+### `03 // MCP Research Assistant`
 
 > **A multi-tool research assistant built around the Model Context Protocol.**
 
 A modular MCP system combining document processing, search, analysis, knowledge retrieval, and multi-step tool workflows.
 
-**Focus**
+`MCP` · `Agents` · `Tool Use` · `Research Automation`
 
-- Document processing
-- Search and retrieval
-- Tool orchestration
-- Multi-step workflows
-- Agent / tool boundaries
-
-[**View Repository →**](https://github.com/XuWenboooo/mcp-tool-assistant)
-
-`MCP` `Agents` `Tool Use` `Research Automation`
+[**ACCESS REPOSITORY →**](https://github.com/XuWenboooo/mcp-tool-assistant)
 
 ---
 
-# 🧭 Current Research Direction
+## `// RESEARCH_TRAJECTORY`
 
 ```text
 LLM Systems
@@ -261,47 +242,37 @@ LLM Systems
                        └── Robust Evaluation & Forensics
 ```
 
-My goal is to connect **AI systems engineering** with **security, evaluation, and speech intelligence** into a coherent research direction.
+> **Objective:** connect AI systems engineering with security, evaluation, and speech intelligence into one coherent research direction.
 
 ---
 
-# 🧪 How I Work
-
-I care not only about whether a system works, but also whether:
-
-- the result is **reproducible**
-- the evaluation protocol is **well-defined**
-- failures are **recorded instead of hidden**
-- conclusions are supported by **actual experiments**
-- engineering decisions can survive **independent review**
+## `// OPERATING_PRINCIPLES`
 
 ```text
-Question
+QUESTION
    ↓
-Hypothesis
+HYPOTHESIS
    ↓
-Experimental Protocol
+EXPERIMENTAL PROTOCOL
    ↓
-Implementation
+IMPLEMENTATION
    ↓
-Evaluation
+EVALUATION
    ↓
-Failure Analysis
+FAILURE ANALYSIS
    ↓
-Reproducible Evidence
+REPRODUCIBLE EVIDENCE
 ```
+
+I care not only about whether a system works, but whether the result is **reproducible**, the protocol is **well-defined**, failures are **recorded**, and conclusions can survive **independent review**.
 
 ---
 
-# 🛠️ Tech Stack
+## `// TOOLCHAIN`
 
 <div align="center">
 
 [![My Skills](https://skillicons.dev/icons?i=python,cpp,pytorch,git,github,linux,vscode)](https://skillicons.dev)
-
-</div>
-
-<div align="center">
 
 `Python` · `C++` · `PyTorch` · `Git` · `GitHub` · `LLM APIs` · `MCP` · `Speech / Audio Evaluation`
 
@@ -309,34 +280,30 @@ Reproducible Evidence
 
 ---
 
-# 📊 GitHub
+## `// TELEMETRY`
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=XuWenboooo&show_icons=true&hide_border=true&rank_icon=github" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=XuWenboooo&layout=compact&hide_border=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=XuWenboooo&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight&bg_color=00000000" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=XuWenboooo&layout=compact&hide_border=true&theme=tokyonight&bg_color=00000000" />
 
 </div>
 
 ---
 
-# 🌱 Currently
+## `// CURRENT_PROCESS`
 
-- 🔬 Working on **long-form TTS evaluation**
-- 🛡️ Exploring **AI Security and synthetic speech forensics**
-- 🧠 Studying **LLM evaluation and reliable AI systems**
-- 🔧 Improving engineering practices around **testing, CI and reproducibility**
+- `ACTIVE` 🔬 Long-form TTS evaluation
+- `EXPLORE` 🛡️ AI Security and synthetic speech forensics
+- `STUDY` 🧠 LLM evaluation and reliable AI systems
+- `BUILD` 🔧 Testing, CI, reproducibility and research-grade engineering
 
 ---
 
-# 📫 Contact
-
-If you are interested in my research or projects, feel free to contact me through GitHub.
-
 <div align="center">
 
-### Research · Build · Evaluate · Understand
+### `RESEARCH // BUILD // EVALUATE // AUDIT // UNDERSTAND`
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:0f172a,35:1d4ed8,70:7c3aed,100:0ea5e9" />
+<sub>signal acquired · experiment running · evidence matters</sub>
 
 </div>
