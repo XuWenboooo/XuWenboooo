@@ -1,0 +1,9 @@
+<svg width="1200" height="72" viewBox="0 0 1200 72" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <rect width="1200" height="72" fill="#05070D"/>
+  <path d="M16 10H1184V18H1192V54H1184V62H16V54H8V18H16Z" fill="none" stroke="#60A5FA" stroke-width="2"/>
+  <rect x="28" y="24" width="8" height="8" fill="#22D3EE"/>
+  <rect x="42" y="24" width="8" height="8" fill="#60A5FA"/>
+  <rect x="56" y="24" width="8" height="8" fill="#C084FC"/>
+  <text x="88" y="43" fill="#F2F7FF" font-family="Consolas, Menlo, monospace" font-size="22" font-weight="700" letter-spacing="2">SELECTED_SYSTEMS</text>
+  <text x="1002" y="43" fill="#BFDBFE" font-family="Consolas, Menlo, monospace" font-size="13" letter-spacing="1">[3 PROJECTS]</text>
+</svg>
