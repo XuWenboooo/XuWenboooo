@@ -186,56 +186,20 @@ flowchart LR
 
 ---
 
-## `// RESEARCH_TRAJECTORY`
-
-```text
-LLM Systems
-     │
-     ├── Evaluation & Reliability
-     │
-     ├── Agent / MCP Systems
-     │
-     └── AI Security
-              │
-              └── Speech / TTS Security
-                       │
-                       └── Robust Evaluation & Forensics
-```
-
-> **Objective:** connect AI systems engineering with security, evaluation, and speech intelligence into one coherent research direction.
+<div align="center">
+<img width="100%" src="./assets/section-research-trajectory.svg" alt="Research Trajectory — LLM Systems to Speech/TTS Security and Forensics" />
+</div>
 
 ---
-
-## `// OPERATING_PRINCIPLES`
-
-```text
-QUESTION
-   ↓
-HYPOTHESIS
-   ↓
-EXPERIMENTAL PROTOCOL
-   ↓
-IMPLEMENTATION
-   ↓
-EVALUATION
-   ↓
-FAILURE ANALYSIS
-   ↓
-REPRODUCIBLE EVIDENCE
-```
-
-I care not only about whether a system works, but whether the result is **reproducible**, the protocol is **well-defined**, failures are **recorded**, and conclusions can survive **independent review**.
-
----
-
-## `// TOOLCHAIN`
 
 <div align="center">
+<img width="100%" src="./assets/section-operating-principles.svg" alt="Operating Principles — question to reproducible evidence" />
+</div>
 
-[![My Skills](https://skillicons.dev/icons?i=python,cpp,pytorch,git,github,linux,vscode)](https://skillicons.dev)
+---
 
-`Python` · `C++` · `PyTorch` · `Git` · `GitHub` · `LLM APIs` · `MCP` · `Speech / Audio Evaluation`
-
+<div align="center">
+<img width="100%" src="./assets/section-toolchain.svg" alt="Toolchain — Python, C++, PyTorch, Git, GitHub, LLM APIs, MCP and Speech Audio Evaluation" />
 </div>
 
 ---
@@ -252,19 +216,6 @@ I care not only about whether a system works, but whether the result is **reprod
 
 ---
 
-## `// CURRENT_PROCESS`
-
-- `ACTIVE` 🔬 Long-form TTS evaluation
-- `EXPLORE` 🛡️ AI Security and synthetic speech forensics
-- `STUDY` 🧠 LLM evaluation and reliable AI systems
-- `BUILD` 🔧 Testing, CI, reproducibility and research-grade engineering
-
----
-
 <div align="center">
-
-### `RESEARCH // BUILD // EVALUATE // AUDIT // UNDERSTAND`
-
-<sub>signal acquired · experiment running · evidence matters</sub>
-
+<img width="100%" src="./assets/section-current-process.svg" alt="Current Process — active research, exploration, study and engineering" />
 </div>
